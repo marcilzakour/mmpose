@@ -124,6 +124,7 @@ def main():
             thickness=args.thickness,
             show=args.show,
             out_file=out_file)
+        import pdb; pdb.set_trace()
 
 
 if __name__ == '__main__':
