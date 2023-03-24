@@ -15,8 +15,8 @@ from ...builder import DATASETS
 from ..base import Kpt2dSviewRgbImgTopDownDataset
 
 
-@DATASETS.register_module(name="COCOHands")
-class COCOHands(Kpt2dSviewRgbImgTopDownDataset):
+@DATASETS.register_module(name="COCOHandsDataset")
+class COCOHandsDataset(Kpt2dSviewRgbImgTopDownDataset):
     """CocoDataset dataset for top-down pose estimation.
 
     "Microsoft COCO: Common Objects in Context", ECCV'2014.
